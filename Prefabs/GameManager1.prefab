@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &519665411001817832
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 519665411001817835}
+  - component: {fileID: 519665411001817834}
+  - component: {fileID: 519665411001817833}
+  m_Layer: 0
+  m_Name: GameManager1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &519665411001817835
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519665411001817832}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 402.2523, y: 165.134, z: -106.62503}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519665411001817834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519665411001817832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 044981c89100c684f95c0d704112f93f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SliderClass: {fileID: 0}
+  SliderStaff: {fileID: 0}
+  SliderGym: {fileID: 0}
+  SliderCanteen: {fileID: 0}
+  button: {fileID: 0}
+  EndMonthButton: {fileID: 0}
+  YesButton: {fileID: 4689394887918550581, guid: 560adc5b778d61b42a8aac6325bc12f3, type: 3}
+  NoButts: {fileID: 657116806803194275, guid: 6a98caa7e9df84d41bc59598c2536b69, type: 3}
+  clas: 0
+  staff: 0
+  gym: 0
+  canteen: 0
+  total: 0
+  err: {fileID: 0}
+  map: {fileID: 0}
+  back: {fileID: 0}
+  variables: {fileID: 519665411001817833}
+  classes: {fileID: 0}
+  canteenbutt: {fileID: 0}
+  staffbutt: {fileID: 0}
+  gymna: {fileID: 0}
+--- !u!114 &519665411001817833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519665411001817832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4484f696d10fd14d88ba789d0d67820, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  month: 0
+  sdi: 0
+  budget: 0
+  reserve: 0
+  studMoral: 0
+  tMoral: 0
+  sportMetric: 0
+  educMetric: 0
+  TgymBud: 0
+  TclassesBud: 0
+  TstaffBud: 0
+  TcanteenBud: 0
+  gymBud: 0
+  classesBud: 0
+  staffBud: 0
+  canteenBud: 0
+  gymLevel: 0
+  clsLevel: 0
+  stfrLevel: 0
+  cntLevel: 0
+  gymProg: 0
+  clsProg: 0
+  stfrProg: 0
+  cntProg: 0
