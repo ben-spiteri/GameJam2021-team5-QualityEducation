@@ -57,6 +57,6 @@ public class MenuManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Screen.SetResolution(1280, 720, false);
     }
 }

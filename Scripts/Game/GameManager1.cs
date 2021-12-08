@@ -51,6 +51,8 @@ public class GameManager1 : MonoBehaviour
     void Update()
     {   
         
+        Screen.SetResolution(1280, 720, false);
+        
         variables = GetComponent<Variables>();
 
 
